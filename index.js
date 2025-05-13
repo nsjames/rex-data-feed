@@ -30,7 +30,7 @@ async function appendToSheet(range, values) {
         console.error(err);
     });
 
-    console.log(response);
+    console.log(values[0]);
 }
 
 const run = async () => {
